@@ -1,3 +1,5 @@
+# Example
+
 ```Python
 from btree import BTreeSet
 
@@ -39,3 +41,7 @@ print(4 in t)
 print(5 in t)
 # False
 ```
+
+# Notes
+
+As it turns out, this b-tree-based set implementation is about 100 times slower for 10000 elements than the native Python `set()`. The use of this repository is therefore less practical and more educational.
